@@ -1,4 +1,4 @@
-## REading full dataset
+## Reading full dataset
 
 datafile <- "./data/exdata_data_household_power_consumption/household_power_consumption.txt"
 Alldata <- read.table(datafile, header=T, sep=";",na.strings="?",stringsAsFactors=F,check.names=F,comment.char="", dec=".")
